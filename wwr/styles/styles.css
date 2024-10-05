@@ -1,0 +1,130 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Noto Sans", system-ui;
+}
+:root {
+  --primary-color: rgb(26, 95, 122);
+  --secondary-color: rgb(38, 153, 177);
+  --accent1-color: rgb(67, 163, 177);
+  --accent2-color: rgb(243, 245, 249);
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  background-color: var(--primary-color);
+}
+.logo-box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  margin: 0px 10px;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: var(--accent2-color);
+  border-radius: 4px;
+  font-family: "Noto Sans", system-ui;
+}
+main {
+  padding: 0px 50px;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+.hero-box h1 {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+}
+.hero-box p {
+  color: var(--secondary-color);
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.article-img {
+  width: 200px;
+  height: 200px;
+}
+
+.company-history h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 15px 0px;
+  font-family: "Poppins", sans-serif;
+}
+.company-history p {
+  color: var(--secondary-color);
+}
+.adventure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.adventure h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 15px 0px;
+  font-family: "Poppins", sans-serif;
+}
+.adventure img {
+  margin-top: 10px;
+}
+footer {
+  margin-top: 15px;
+  background-color: var(--secondary-color);
+  padding: 50px;
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-box p{
+    color: var( --accent2-color);
+}
