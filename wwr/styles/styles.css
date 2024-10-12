@@ -11,11 +11,10 @@
   --accent2-color: rgb(243, 245, 249);
 }
 .nav-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   background-color: var(--primary-color);
+  padding: 2px 20px;
 }
 .logo-box {
   width: 100px;
@@ -32,16 +31,15 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 nav a {
-  margin: 0px 10px;
   color: var(--primary-color);
-  padding: 5px 10px;
+  padding: 5px 20px;
   text-decoration: none;
   background-color: var(--accent2-color);
-  border-radius: 4px;
   font-family: "Noto Sans", system-ui;
+  border-right: 2px solid gray;
 }
 main {
   padding: 0px 50px;
@@ -100,20 +98,59 @@ article {
 .company-history p {
   color: var(--secondary-color);
 }
+.company-history-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2px 20px;
+}
+.company-history-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.company-history-card img {
+  width: 400px;
+  height: auto;
+  object-fit: contain;
+}
 .adventure {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .adventure h2 {
   color: var(--primary-color);
   text-align: center;
   margin: 15px 0px;
   font-family: "Poppins", sans-serif;
 }
-.adventure img {
-  margin-top: 10px;
+.adventure-box{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 2px 20px;
+}
+.adventure-box-card{
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.adventure-box-card img{
+  width: 220px;
+  padding: 5px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.adventure-box-card h5{
+  color: var(--primary-color);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 footer {
   margin-top: 15px;
@@ -125,6 +162,6 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.footer-box p{
-    color: var( --accent2-color);
+.footer-box p {
+  color: var(--accent2-color);
 }
