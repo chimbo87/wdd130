@@ -76,7 +76,7 @@ main {
   font-family: "Poppins", sans-serif;
 }
 .hero-box p {
-  color: var(--secondary-color);
+  color: #000000;;
 }
 article {
   display: flex;
@@ -96,7 +96,7 @@ article {
   font-family: "Poppins", sans-serif;
 }
 .company-history p {
-  color: var(--secondary-color);
+  color: #000000;
 }
 .company-history-box {
   display: grid;
@@ -154,7 +154,7 @@ article {
 }
 footer {
   margin-top: 15px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 50px;
 }
 .footer-box {
