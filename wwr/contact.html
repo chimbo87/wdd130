@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+      name="description"
+      content="Archford Nhanga's Byu Idaho course WDD 130 Rafting website Contact Us"
+    >
+    <meta name="author" content="Archford Nhanga">
+    <title>Rafting website Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-section">
+        <div class="logo-box">
+          <img src="images/raftinglogo.png" alt="logo" />
+        </div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Trips</a>
+          <a href="#">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="ourteam-section">
+        <h2>Meet Our Team</h2>
+        <div class="ourteam-box">
+          <figure class="ourteam-box-card">
+            <img src="images/team01.jpeg" alt="team01" />
+            <p>Paul Doe</p>
+            <h5>Managing Director</h5>
+          </figure>
+          <figure class="ourteam-box-card">
+            <img src="images/team02.jpeg" alt="team02" />
+            <p>Trish Doe</p>
+            <h5>Marketing Manager</h5>
+          </figure>
+          <figure class="ourteam-box-card">
+            <img src="images/team03.jpeg" alt="team03" />
+            <p>Jane Doe</p>
+            <h5>Customer Care</h5>
+          </figure>
+        </div>
+      </section>
+      <section class="contact-section">
+        <h2>Get In Touch</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <div class="form-select">
+            <h4>Purpose of Message:</h4>
+            <input
+              type="radio"
+              id="general"
+              name="purpose"
+              value="general"
+              required
+            />
+            <label for="general">General Inquiry</label><br />
+            <input
+              type="radio"
+              id="reservation"
+              name="purpose"
+              value="reservation"
+            />
+            <label for="reservation">Reservation Question</label><br />
+            <input
+              type="radio"
+              id="suggestion"
+              name="purpose"
+              value="suggestion"
+            />
+            <label for="suggestion">Website Suggestion</label>
+          </div>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <label>
+            <input type="checkbox" name="subscribe" value="yes" />
+            Please subscribe me to the monthly newsletter
+          </label>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section>
+        <div class="Contactus-wrap">
+          <div >
+            <div class="Contactus-wrap-card">
+              <p>
+                123 Mars St <br />
+                Jupiter City<br />Planet
+              </p>
+            </div>
+            <div class="Contactus-wrap-card">
+              <p>clubrafting@testing.com <br />info@clubrafting</p>
+            </div>
+            <div class="Contactus-wrap-card">
+              <p>+12345678<br />+1234455678</p>
+            </div>
+          </div>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.73585386139!2d28.04002455!3d-26.1715215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1713689111402!5m2!1sen!2sza"
+              width="100%"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <a href="https://app.moqups.com/s5lroOOSagEdvaWlrtleLhFGxzChnQI8/view/page/ac21a3bad">wireframe</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-box">
+        <p>&copy; Club Rafting, Archford Nhanga</p>
+        <nav class="sociallinks">
+          <img src="images/icons8-facebook.svg" alt="icons8-facebook" />
+          <img src="images/icons8-instagram.svg" alt="icons8-instagram" />
+          <img src="images/icons8-twitter.svg" alt="icons8-twitter" />
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
